@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(98, 98, 180);
+    
+}
+
+main{
+    overflow: visible;
+}
+.title{
+    text-align: center;
+    /* background-color: red; */
+    /* align-items: center; */
+    /* display: inline-block; */
+    /* margin-left: 37%; */
+    /* backdrop-filter: blur(1px); */
+}
+.header{
+    
+    background: url(1.jpg) no-repeat center center/cover;
+    /* background-repeat: no-repeat; */
+    /* border-image-width: 100%; */
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+    /* z-index: -1; */
+    margin-top: 0px;
+    /* min-height: 44%; */
+    background-size: 100%;
+    /* color: white; */
+    /* filter: blur(8px); */
+    opacity: 0.89;
+    margin-right: 0px;
+}
+nav{
+    /* display: inline-block; */
+    position: fixed;
+     top: 0em;
+     right: 0em;
+     left: 0em;
+    z-index: 5;
+    background: black;
+    opacity: .58;
+    margin-top: 0px;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    /* backdrop-filter: blur(1px); */
+    /* z-index: 1; */
+}
+ .f{
+    list-style-type: none;
+     margin: 5px; 
+    font-size: 18px;
+    opacity: 1;
+} 
+
+#logo{
+    width: 44px;
+}
+.f a{
+    text-decoration: none;
+    color: white;
+    text-decoration: solid;
+    /* width: 1.2rem; */
+    /* opacity: 1; */
+}
+.header nav ul li a:hover{
+    color: rgb(65, 154, 238);
+    background-color: white;
+    border-radius: 6px;
+}
+ul{
+  display: flex;  
+  margin-top: 0px;
+}
+h3{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+.content{
+   word-wrap: normal;
+    margin: 5px;
+    text-align: center;
+    width: 30%;
+    border-radius: 18px;
+    border: 2px solid red;
+    background-color: rgb(154, 202, 114);
+    /* padding: 0px; */
+    /* flex-wrap: wrap; */
+}
+
+#p{
+    width: 30%;
+    display: inline-block;
+}
+fieldset{
+    width: 50%;
+}
+
+@media screen and (max-width:500px) {
+    
+}

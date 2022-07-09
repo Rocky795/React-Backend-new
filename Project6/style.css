@@ -1,0 +1,49 @@
+@import url('utility.css');
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+
+*{
+    padding: 0px;
+     margin: 0px;
+    box-sizing: border-box;
+    -webkit-font-smooting:antialaised;
+}
+header{
+    background: var(--dark);
+    height: 400px;
+}
+
+.container{
+    max-width: 1002px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+header nav .left a:hover{
+    cursor: pointer;
+    color: var(--primary);
+    transition: all .3s ease;
+}
+
+header nav{
+    padding: 2rem 0rem;
+
+}
+
+header nav .branding{
+    margin-right: 3rem;
+}
+

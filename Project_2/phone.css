@@ -1,0 +1,50 @@
+/* list  */
+body{
+    background-color: antiquewhite;
+}
+.f{
+    font-size: 20px;
+    
+}
+
+.f a{
+    text-decoration: none;
+    color: rgb(14, 240, 202);
+    /* width: 1.2rem; */
+}
+
+.title{
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    background-size: 100%;
+
+}
+
+@media screen and (max-width: 280px) {
+    .f a{
+        font-size: 13px;
+        opacity: 4;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .content{
+       word-wrap: normal;
+        margin: 5px;
+        text-align: center;
+        width: 45%;
+        border-radius: 18px;
+        border: 2px solid red;
+        background-color: rgb(154, 202, 114);
+        /* padding: 0px; */
+        /* flex-wrap: wrap; */
+    }
+}
